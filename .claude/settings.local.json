@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E '^- \\\\[ \\\\]|^- \\\\[X\\\\]|^- \\\\[x\\\\]' specs/001-console-todo-app/checklists/*.md)"
+    ]
+  }
+}

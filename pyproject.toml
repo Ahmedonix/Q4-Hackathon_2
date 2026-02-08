@@ -1,0 +1,22 @@
+[project]
+name = "console-todo-app"
+version = "0.1.0"
+description = "A clean, in-memory command-line Todo application"
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+authors = [
+    {name = "Ahmed Naseem Qureshi", email = "ahmed@example.com"},
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/ahmed/TODO_APP_URL"
+Repository = "https://github.com/ahmed/TODO_APP_URL"
+
+[tool.setuptools.packages.find]
+where = ["src"]
